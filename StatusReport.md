@@ -1,6 +1,5 @@
 # Update on each of the tasks including references to specific artifacts in your repository (such as datasets, scripts, workflows, workflow diagrams, etc).
 
-
 # An updated timeline indicating the status of each task and when they will be completed.
 **Step 1: Project Setup and Data Acquisition - COMPLETED 4/2**
 - Together:
