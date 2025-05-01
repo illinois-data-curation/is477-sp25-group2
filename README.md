@@ -1,7 +1,3 @@
-Your final project submission will include a report summarizing your project and data curation actions as well as the actual artifacts (e.g., scripts, data, results, visualizations). Your project grade will be based on both the report and the digital artifacts submitted as described below.
-
-In your project repository, create a file named README.md (or use the existing file). This will be your project report. It should have the following structure:
-
 # Title: Impact of Cost of Living on Social Metrics Across the World
 
 # Link to archival record: Link to the archived copy of your project, including persistent identifier.
@@ -11,7 +7,7 @@ In your project repository, create a file named README.md (or use the existing f
 - Shawna Ye: 0009-0001-4840-3883
 
 # Summary: [500-1000 words] Description of your project, motivation, research question(s), and any findings.
-Our project looks at two datasets: a 2022 cost of living across global cities dataset and economic, social, and environmental indicators from the World Bank. By analyzing
+Our project looks at two datasets: a 2022 cost of living across global cities dataset and economic, social, demographic, and environmental indicators from the World Bank. By analyzing
 these datasets, we hope to discover where there's a relationship between cost of living metrics (food prices, housing costs, average salary, etc.) and social indicators in the US (school enrollment rates, infant mortality rates, 
 poverty headcount, etc.). For example, if a country has a higher cost of living, are social indicators higher due to increased access to better services and infrastructure? We were motivated to research this topic due to personal
 curiosity and practicality. As young adults about to enter the workforce and manage our own living expenses, we have become more aware of how cost of living not only affects individual liestyles but also broader social outcomes
@@ -23,17 +19,17 @@ with social wellness metrics (fertility rate, life expectancy, school enrollment
 FINDINGS
 
 
-# Data profile: [500-1000 words] Description of each dataset used including license/terms of use.
+# Data profile:
 We are using 2 datasets from Kaggle: Global Cost of Living (https://www.kaggle.com/datasets/mvieira101/global-cost-of-living?select=cost-of-living_v2.csv) and World Bank Indicators Dataset (https://www.kaggle.com/datasets/georgejdinicola/world-bank-indicators).
 
 For the Global Cost of Living dataset, this dataset features information scraped from Numbeo's website (per Numbeo's website: "Numbeo is the world's largest cost of living database and a crowdsourced global resource for quality of life data") on the
 cost of living from approximately 5000 cities across the world. The dataset features 58 columns that encompass a variety of metrics, everything from restaruant costs; food prices (different drinks such as milk or soda, grains, poultry, produce, and more); transportation-related
 costs such as fuel costs and public transport ticket prices; amenities such as schools, internet costs, fitness club fees, movie price tickets; educational costs; apartment housing prices; and salaries. Thus, we chose this dataset because it offers a comprehensive
-look into the affordability and economic accessibility of urban life around the globe. This dataset was last updated on 12/3/2022, and we are using the latest version. The dataset featues 4898 unique values and 117 columns, with 22% of the cities represented being American cities, 
-roughly 4% from Italy, and the remaining ~75% from other places around the world. The licensing on this dataset is CC0: Public Domain, which allows unrestricted use, distribution, and modification for research, analysis, and public dissemination. We also chose this dataset
-because it has a 9.71 usability score on Kaggle, with 100% ratings for completeness, credibility, and compatibility.
+look into the affordability and economic accessibility of urban life around the globe. This dataset was last updated on 12/3/2022, and we are using the latest version. The dataset features 4956 rows and 117 columns, with 22% of the cities represented being American cities, 
+roughly 4% from Italy, and the remaining ~75% from other places around the world. We also chose this dataset because it has a 9.71 usability score on Kaggle, with 100% ratings for completeness, credibility, and compatibility. The licensing on this dataset is CC0: Public Domain, which allows unrestricted use, distribution, and modification for research, analysis, and public dissemination. According to the Numbeo website, its terms of use states that its data is free for personal and academic use, as long as appropriate credit is given. However, automated data collection via scraping is prohibited unless authorized. For more information, please visit https://www.numbeo.com/common/terms_of_use.jsp.
 
-The second 
+The second dataset is from the World Bank and covers a range of global indicators spanning from 1960 to 2023. These indicators include economic metrics (GDP growth, merchandise trade, gross capital formation, etc.), environmental metrics (forest area, renewable energy consumption), 
+demographic metrics (urban population, life expectancy, net migration), and the one type of metric we're focusing on: social metrics, which encompasses topics such as school enrollment, mortality rates, and more. This dataset was selected because it's not only comprehensive but also from an extremely reliable source; The World Bank is an international development organization owned by 187 countries that provides assistance to developing countries to reduce poverty and promote sustainable development goals (SDGs). The dataset has roughly 16960 rows and and 215 columns, and it has a 9.41 usability score with 100% ratings for completeness and credibility, and a 75% rating for compatibility. The licensing on this dataset is Creative Commons Attribution 4.0 International (CC BY 4.0), which means that users are free to share, adapt and build upon data fora variety of purposes as long as they give appropriate credit to the World Bank and note any changes made. Additionally, according to the World Bank website, the terms of use also state that some of its "datasets may include third-party content with separate terms, which must be followed ... Users may not imply World Bank endorsement or use its name, logo, or branding without written permission." For more information on the World Bank's terms of use, please visit https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets. 
 
 # Findings: [~500 words] Description of any findings including numeric results and/or visualizations.
 # Future work: [~500-1000 words] Brief discussion of any lessons learned and potential future work.
