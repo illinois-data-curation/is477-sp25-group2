@@ -1,0 +1,265 @@
+﻿code,country
+afg,Afghanistan
+alb,Albania
+dza,Algeria
+asm,American Samoa
+and,Andorra
+ago,Angola
+aia,Anguila
+atg,Antigua and Barbuda
+arg,Argentina
+arm,Armenia
+abw,Aruba
+aus,Australia
+aut,Austria
+aze,Azerbaijan
+bhs,Bahamas
+bhr,Bahrain
+bgd,Bangladesh
+brb,Barbados
+blr,Belarus
+bel,Belgium
+blx,Belgium-Luxembourg
+blz,Belize
+ben,Benin
+bmu,Bermuda
+btn,Bhutan
+bol,Bolivia
+bih,Bosnia and Herzegovina
+bwa,Botswana
+bat,Br. Antr. Terr
+bra,Brazil
+iot,British Indian Ocean Ter.
+vgb,British Virgin Islands
+brn,Brunei
+bgr,Bulgaria
+bfa,Burkina Faso
+bdi,Burundi
+khm,Cambodia
+cmr,Cameroon
+can,Canada
+cpv,Cape Verde
+cym,Cayman Islands
+caf,Central African Republic
+tcd,Chad
+chl,Chile
+chn,China
+cxr,Christmas Island
+cck,Cocos (Keeling) Islands
+col,Colombia
+com,Comoros
+zar,Congo
+cog,Congo
+cok,Cook Islands
+cri,Costa Rica
+civ,Cote d'Ivoire
+hrv,Croatia
+cub,Cuba
+cyp,Cyprus
+cze,Czech Republic
+csk,Czechoslovakia
+dnk,Denmark
+dji,Djibouti
+dma,Dominica
+dom,Dominican Republic
+tmp,East Timor
+ecu,Ecuador
+egy,Egypt
+slv,El Salvador
+gnq,Equatorial Guinea
+eri,Eritrea
+est,Estonia
+eth,Ethiopia (excludes Eritrea)
+etf,Ethiopia (includes Eritrea)
+eun,European Union
+fro,Faeroe Islands
+flk,Falkland Island
+fji,Fiji
+fin,Finland
+pcz,Fm Panama Cz
+zw1,Fm Rhod Nyas
+tan,Fm Tanganyik
+vdr,Fm Vietnam Dr
+svr,Fm Vietnam Rp
+zpm,Fm Zanz-Pemb
+atf,Fr. So. Ant. Tr
+fra,France
+fre,Free Zones
+guf,French Guiana
+pyf,French Polynesia
+gab,Gabon
+gmb,Gambia
+gaz,Gaza Strip
+geo,Georgia
+ddr,German Democratic Republic
+deu,Germany
+gha,Ghana
+gib,Gibraltar
+grc,Greece
+grl,Greenland
+grd,Grenada
+glp,Guadeloupe
+gum,Guam
+gtm,Guatemala
+gin,Guinea
+gnb,Guinea-Bissau
+guy,Guyana
+hti,Haiti
+vat,Holy See
+hnd,Honduras
+hkg,Hong Kong
+hun,Hungary
+isl,Iceland
+ind,India
+idn,Indonesia
+irn,Iran
+irq,Iraq
+irl,Ireland
+isr,Israel
+ita,Italy
+jam,Jamaica
+jpn,Japan
+jtn,Jhonston Island
+jor,Jordan
+kaz,Kazakhstan
+ken,Kenya
+kir,Kiribati
+prk,Korea
+kor,Korea
+kwt,Kuwait
+kgz,Kyrgyz Republic
+lao,Lao PDR
+lva,Latvia
+lbn,Lebanon
+lso,Lesotho
+lbr,Liberia
+lby,Libya
+lie,Liechtenstein
+ltu,Lithuania
+lux,Luxembourg
+mac,Macao
+mkd,Macedonia
+mdg,Madagascar
+mwi,Malawi
+mys,Malaysia
+mdv,Maldives
+mli,Mali
+mlt,Malta
+mhl,Marshall Islands
+mtq,Martinique
+mrt,Mauritania
+mus,Mauritius
+mex,Mexico
+fsm,Micronesia
+mid,Midway Islands
+mda,Moldova
+mco,Monaco
+mng,Mongolia
+msr,Montserrat
+mar,Morocco
+moz,Mozambique
+mmr,Myanmar
+nam,Namibia
+nru,Nauru
+npl,Nepal
+nld,Netherlands
+ant,Netherlands Antilles
+nze,Neutral Zone
+ncl,New Caledonia
+nzl,New Zealand
+nic,Nicaragua
+ner,Niger
+nga,Nigeria
+niu,Niue
+nfk,Norfolk Island
+mnp,Northern Mariana Islands
+nor,Norway
+omn,Oman
+pce,Pacific Islands
+pak,Pakistan
+plw,Palau
+pan,Panama
+png,Papua New Guinea
+pry,Paraguay
+pmy,Pen Malaysia
+per,Peru
+phl,Philippines
+pcn,Pitcairn
+pol,Poland
+prt,Portugal
+pri,Puerto Rico
+qat,Qatar
+reu,Reunion
+rom,Romania
+rus,Russian Federation
+rwa,Rwanda
+ryu,Ryukyu Is
+sbh,Sabah
+shn,Saint Helena
+kn1,Saint Kitts-Nevis-Anguilla-Aru
+spm,Saint Pierre and Miquelon
+wsm,Samoa
+smr,San Marino
+stp,Sao Tome and Principe
+swk,Sarawak
+sau,Saudi Arabia
+sen,Senegal
+syc,Seychelles
+sle,Sierra Leone
+sik,SIKKIM
+sgp,Singapore
+svk,Slovak Republic
+svn,Slovenia
+slb,Solomon Islands
+som,Somalia
+zaf,South Africa
+svu,Soviet Union
+esp,Spain
+spe,Special Categories
+lka,Sri Lanka
+kna,St. Kitts and Nevis
+lca,St. Lucia
+vct,St. Vincent and the Grenadines
+sdn,Sudan
+sur,Suriname
+sjm,Svalbard and Jan Mayen Is
+swz,Swaziland
+swe,Sweden
+che,Switzerland
+syr,Syrian Arab Republic
+twn,Taiwan
+tjk,Tajikistan
+tza,Tanzania
+tha,Thailand
+tgo,Togo
+tkl,Tokelau
+ton,Tonga
+tto,Trinidad and Tobago
+tun,Tunisia
+tur,Turkey
+tkm,Turkmenistan
+tca,Turks and Caicos Isl.
+tuv,Tuvalu
+uga,Uganda
+ukr,Ukraine
+are,United Arab Emirates
+gbr,United Kingdom
+usa,United States
+uns,Unspecified
+ury,Uruguay
+usp,Us Msc.Pac.I
+uzb,Uzbekistan
+vut,Vanuatu
+ven,Venezuela
+vnm,Vietnam
+vir,Virgin Islands (U.S.)
+wak,Wake Island
+wlf,Wallis and Futura Isl.
+esh,Western Sahara
+wld,World
+ydr,Yemen Democratic
+yem,Yemen
+ser,Yugoslavia
+yug,Yugoslavia
+zmb,Zambia
+zwe,Zimbabwe
