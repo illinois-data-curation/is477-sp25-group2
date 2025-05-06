@@ -7,7 +7,6 @@ wb_indicators = pd.read_csv("inputs/wb_indicators.csv")
 ccosts_cols = ["country", "x1", "x42", "x52", "x54"]
 countries_costs = countries_costs[[col for col in ccosts_cols if col in countries_costs.columns]]
 countries_costs.columns = countries_costs.columns.str.strip()
-countries_costs.dropna()
 
 countries_costs.rename(columns={"x1": "inexpensive meal"}, inplace=True)
 countries_costs.rename(columns={"x42": "primary school enrollment"}, inplace=True)
@@ -30,11 +29,24 @@ wb_indicators.rename(columns={"Life expectancy at birth, total (years)": "total 
 wb_indicators.rename(columns={"School enrollment, primary (% net)": "net primary school enrollment"}, inplace=True)
 wb_indicators.rename(columns={"Poverty headcount ratio at national poverty lines (% of population)": "poverty ratio"}, inplace=True)
 
-#wb_indicators = wb_indicators[wb_indicators["year"] == "2022"]
-#wb_indicators.drop("year", axis=1, inplace=True)
+wb_indicators = wb_indicators[wb_indicators["year"] == 2022]
+wb_indicators.drop("year", axis=1, inplace=True)
+
+countries_dict_df = pd.read_csv("inputs/countries_dict.csv",encoding = "ISO-8859-1")
+countries_dict_df = pd.DataFrame({
+    'Country': countries_dict_df.iloc[:, 0],                         
+    'Alpha-3 code': countries_dict_df.iloc[:, 2].str.lower()      
+})
+
+code_to_name = dict(zip(countries_dict_df["Alpha-3 code"], countries_dict_df["Country"]))
+
+wb_indicators["country"] = wb_indicators["country"].map(code_to_name)
+
 
 countries_costs.to_csv("countries_costs_cleaned.csv", index=False)
 wb_indicators.to_csv("wb_indicators_cleaned.csv", index=False)
+countries_dict_df.to_csv("testtest.csv", index=False)
+
 ## import and clean both
 ## import and add column names
 ## countries 2022
