@@ -32,9 +32,44 @@ The second dataset is from the World Bank and covers a range of global indicator
 demographic metrics (urban population, life expectancy, net migration), and the one type of metric we're focusing on: social metrics, which encompasses topics such as school enrollment, mortality rates, and more. This dataset was selected because it's not only comprehensive but also from an extremely reliable source; The World Bank is an international development organization owned by 187 countries that provides assistance to developing countries to reduce poverty and promote sustainable development goals (SDGs). The dataset has roughly 16960 rows and and 215 columns, and it has a 9.41 usability score with 100% ratings for completeness and credibility, and a 75% rating for compatibility. The licensing on this dataset is Creative Commons Attribution 4.0 International (CC BY 4.0), which means that users are free to share, adapt and build upon data fora variety of purposes as long as they give appropriate credit to the World Bank and note any changes made. Additionally, according to the World Bank website, the terms of use also state that some of its "datasets may include third-party content with separate terms, which must be followed ... Users may not imply World Bank endorsement or use its name, logo, or branding without written permission." For more information on the World Bank's terms of use, please visit https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets. 
 
 # Findings: [~500 words] Description of any findings including numeric results and/or visualizations.
+In this analysis, we explored the relationship between the cost of living across different global locations and various socioeconomic indicators. Specifically, we compiled cost of living data from 4,816 cities across 249 countries and examined how these costs might be influenced by three key indicators sourced from the World Bank: total fertility rate, life expectancy at birth, and food production index. These indicators represent demographic, health, and agricultural productivity dimensions of a country, respectively.
+
+
+To compare these diverse indicators on a similar scale, we created a composite index by standardizing the values of each indicator and weighing them approximately equally. This total index allowed us to perform more direct comparisons between the combined socioeconomic conditions of a country and its cost of living. The goal was to identify whether there were any consistent, interpretable correlations between the socioeconomic profile of a country and how expensive it is to live there.
+
+
+The findings revealed some interesting patterns. First, the composite total index (which includes all three indicators) did not show a strong or consistent correlation with the cost of living. This suggests that when considered together, these indicators do not clearly explain variations in how much it costs to live in different cities or countries.
+
+
+However, when we looked at individual indicators, clearer relationships began to emerge. One of the most noticeable findings was that life expectancy tends to be positively correlated with the cost of living. This means that countries where people live longer also tend to be more expensive. This relationship could imply that higher living standards and better healthcare systems, which contribute to longer life spans, also drive up the cost of living.
+
+
+On the other hand, the total fertility rate appeared to have a slightly negative correlation with cost of living. This suggests that in countries where people have more children on average, the cost of living is somewhat lower. While the trend isn’t dramatically strong, it might reflect that higher fertility rates are more common in developing countries, which typically have lower living costs compared to developed nations.
+
+
+Lastly, the food production index did not show a clear or consistent correlation with the cost of living. This indicates that the amount of food a country produces relative to a base year doesn’t seem to strongly impact how expensive it is to live there. There could be many reasons for this, such as the influence of global food trade, distribution inefficiencies, or subsidies that decouple domestic food production from consumer prices.
+
+
+Overall, the analysis shows that while some socioeconomic indicators—particularly life expectancy—are related to the cost of living, others are either weakly correlated or not at all. It highlights how complex and multi-dimensional the drivers of living costs are, and that while demographic and economic data offer valuable insights, they do not paint a full picture on their own. Future research could incorporate more variables such as income levels, education, urbanization rates, or government policy to better understand what influences cost of living globally.
+
 # Future work: [~500-1000 words] Brief discussion of any lessons learned and potential future work.
 # Reproducing: Sequence of steps required for someone else to reproduce your results.
+1.Import the Global Indicators dataset, Countries Cost of Living dataset, and Country Dictionary CSVs from Kaggle.
+
+2.Clean all datasets by removing null values, trimming trailing whitespaces, and standardizing capitalization.
+
+3.From the Global Indicators dataset, extract relevant columns (e.g., fertility rate, life expectancy, food production index).
+
+4.In the Countries Cost of Living dataset, calculate and create a new column labeled "totaled costs" to represent total living expenses.
+
+5.Construct a composite "indicators indexed" column by weighting each global indicator approximately equally.
+
+6.In analysis.py, merge datasets using country names as the primary key.
+
+7.Visualize and analyze the relationship between each global indicator, the composite index, and "totaled costs".
+
 # References: Formatted citations for any papers, datasets, or software used in your project.
+
 
 
 Below are examples of artifacts we expect to see as part of your projects:

@@ -1,0 +1,8 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: Shawnas-MacBook-Air.local
+Building DAG of jobs...
+MissingInputException in rule all in file "/Users/shawnaye/Desktop/is477/is477-sp25-group2/Snakefile", line 1:
+Missing input files for rule all:
+    affected files:
+        no_outliers_index_to_costs.pngfertility_rate_to_costs.png

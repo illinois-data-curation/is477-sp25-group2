@@ -1,0 +1,49 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: Shawnas-MacBook-Air.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count
+--------  -------
+clean_db        1
+total           1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Wed May  7 00:32:45 2025]
+localrule clean_db:
+    input: inputs/countries_col.csv, inputs/countries_dict.csv, inputs/world_bank_indicators.csv
+    output: countries_costs_cleaned.db, wb_indicators_cleaned.csv
+    jobid: 0
+    reason: Missing output files: countries_costs_cleaned.db
+    resources: tmpdir=/var/folders/qq/kbkg29l55wxgdyzz18wq6x7c0000gn/T
+
+RuleException:
+CalledProcessError in file "/Users/shawnaye/Desktop/is477/is477-sp25-group2/Snakefile", line 4:
+Command 'set -euo pipefail;  python cleanData.py' returned non-zero exit status 2.
+[Wed May  7 00:32:46 2025]
+Error in rule clean_db:
+    message: None
+    jobid: 0
+    input: inputs/countries_col.csv, inputs/countries_dict.csv, inputs/world_bank_indicators.csv
+    output: countries_costs_cleaned.db, wb_indicators_cleaned.csv
+    shell:
+        python cleanData.py
+        (command exited with non-zero exit code)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Wed May  7 00:32:46 2025]
+Error in rule clean_db:
+    message: None
+    jobid: 0
+    input: inputs/countries_col.csv, inputs/countries_dict.csv, inputs/world_bank_indicators.csv
+    output: countries_costs_cleaned.db, wb_indicators_cleaned.csv
+    shell:
+        python cleanData.py
+        (command exited with non-zero exit code)
+Complete log(s): /Users/shawnaye/Desktop/is477/is477-sp25-group2/.snakemake/log/2025-05-07T003245.633760.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.
