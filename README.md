@@ -8,15 +8,12 @@
 
 # Summary: [500-1000 words] Description of your project, motivation, research question(s), and any findings.
 Our project looks at two datasets: a 2022 cost of living across global cities dataset and economic, social, demographic, and environmental indicators from the World Bank. By analyzing
-these datasets, we hope to discover where there's a relationship between cost of living metrics (food prices, housing costs, average salary, etc.) and social indicators in the US (school enrollment rates, infant mortality rates, 
-poverty headcount, etc.). For example, if a country has a higher cost of living, are social indicators higher due to increased access to better services and infrastructure? We were motivated to research this topic due to personal
-curiosity and practicality. As young adults about to enter the workforce and manage our own living expenses, we have become more aware of how cost of living not only affects individual liestyles but also broader social outcomes
-within society. However, some major cities such as New York City or San Francisco offer better public services and amenities but are also known for their social inequalities. Our research
-question is: For countries across the world, what is the relationship between cost of living metrics in major cities and overall social indicators? By examining this question, we hope to look at whether cost of living metrics (an
+these datasets, we hope to discover where there's a relationship between the total cost of living metrics (which consist of food prices, housing costs, average salary, etc.) and social indicators in the US (school enrollment rates, infant mortality rates, poverty headcount, etc.). For example, if a country has a higher cost of living, are social indicators higher due to increased access to better services and infrastructure? We were motivated to research this topic due to personal curiosity and practicality. As young adults about to enter the workforce and manage our own living expenses, we have become more aware of how cost of living not only affects individual liestyles but also broader social outcomes within society. However, some major cities such as New York City or San Francisco offer better public services and amenities but are also known for their social inequalities. Our research
+question is: For countries across the world, what is the relationship between cost of living in their major cities and overall social indicators? By examining this question, we hope to look at whether total cost of living metrics (an
 inexpensive meal at a restaurant, monthly cost of preschool/kindergarten for one child, price per square meter to buy an apartment in the city center, average monthly net salary) have some sort of impact or relationship
 with social wellness metrics (fertility rate, life expectancy, school enrollment, poverty headcount). 
 
-FINDINGS
+#FIXXX Based on our findings, we found that there is a positive correlation between higher cost of living and life expectancy. However, there is a slight negative correlation between total fertility rate and higher cost of living. The results between cost of living and social indicators aare inconclusive using the food production metrics Using the general index of he general index is inconclusive and so is food production index
 
 
 # Data profile:
