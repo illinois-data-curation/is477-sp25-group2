@@ -57,11 +57,11 @@ Through this project, we've gained valuable insights into the relationship betwe
 
 One lesson we've learned is the importance of scaling data across multiple datasets. In our project, the cost of living data was collected at the city level, while the indicators from the World Bank were reported at the country level. This initially posed challenges when trying to determine the relationships between the cost of living metrics and the social indicators. For example, New York City's cost of living metrics may not accurately reflect the cost of living metrics across the entire United States. Due to this limitation, we had to aggregate cities by country so that the average of the metrics could hopefully provide a more clear image of the country. To translate this into future work, we might seek out a cost-of-living dataset that features data at a country-level, or instead use a social metrics dataset that operates at a city-level. Doing so could prevent potential mismatches, allowing us to draw more clear conclusions about causality or correlation. 
 
-Another lesson we learned is that a simple correlation analysis might not be enough to underestand the complexity of the relationship between cost of living and social metrics. As some of our results are inconclusive, in future work we could use regression models or machine learning techniques (such as clustering) to uncover more hidden patterns. Such models could help control confounding variables that affect social indicators such as population density, GDP per capita, etc. 
+Another lesson we learned is that a simple correlation analysis might not be enough to understand the complexity of the relationship between cost of living and social metrics. As some of our results are inconclusive, in future work we could use regression models or machine learning techniques (such as clustering) to uncover more hidden patterns. Such models could help control confounding variables that affect social indicators such as population density, GDP per capita, etc. 
 
 We also recognize that our cost of living dataset may be limited as it only features one year, which hampers our ability to detect trends. In the future, we could use datasets that span across multiple years, which would allow us to better analyze the relationship between cost of living and social indicators over time. This could help determine whether observed relationships are stable, increasing, or diminishing. For instance, cost of living metrics have been especially subject to fluctuations after the pandemic because of supply chain disruptions, inflation, shifting labor markets, and changing patterns in housing and food costs. With multi-year data, we could explore lagged effects, such as seeing whether a sharp increase in cost of living in one year leads to measurable changes in social indicators in the following years.
 
-Lastly, we see immense potential in expanding the scope of our analysis beyond social indicators. For this project, we decided to look only at social indicators because that's what interested us the most, but the World Bank dataset also includes economic, environmental, and demographic metrics that we could use in future studies. This would help create a more holistic image of the relationship between wellbeing metrics and cost of living metrics. For instance, economic indicators such as GDP per capita, unemployment rates, inflation, or income inequality could provide deeper insight into whether high costs of living is associated with economic prosperity, and environmental metrics (such as CO2 emissions, access to clean water, urban air quality) could reveal how environmental sustainability relates to affordability and quality of life. Demographic variables like population growth rate, urbanization levels, or median age could also shed light factors that may influence both cost of living and societal wellbeing. Thus, while our curret project offers a focused look at the intersection of cost of living and social wellness, future work that expands into economic, environmental, and demographic data could paint a more interconnected picture of global living conditions.
+Lastly, we see immense potential in expanding the scope of our analysis beyond social indicators. For this project, we decided to look only at social indicators because that's what interested us the most, but the World Bank dataset also includes economic, environmental, and demographic metrics that we could use in future studies. This would help create a more holistic image of the relationship between wellbeing metrics and cost of living metrics. For instance, economic indicators such as GDP per capita, unemployment rates, inflation, or income inequality could provide deeper insight into whether high costs of living is associated with economic prosperity, and environmental metrics (such as CO2 emissions, access to clean water, urban air quality) could reveal how environmental sustainability relates to affordability and quality of life. Demographic variables like population growth rate, urbanization levels, or median age could also shed light factors that may influence both cost of living and societal wellbeing. Thus, while our current project offers a focused look at the intersection of cost of living and social wellness, future work that expands into economic, environmental, and demographic data could paint a more interconnected picture of global living conditions.
 
 In conclusion, this project served as a starting point for understanding how cost of living may relate to social indicators. While our results provide some insight, they also highlight the complexity of these relationships and the need for future analysis to more precisely capture how cost-of-living conditions intersect with well-being in cities across the world.
 
@@ -80,49 +80,8 @@ In conclusion, this project served as a starting point for understanding how cos
 
 7.Visualize and analyze the relationship between each global indicator, the composite index, and "totaled costs".
 
-# References: Formatted citations for any papers, datasets, or software used in your project.
-
-
-
-Below are examples of artifacts we expect to see as part of your projects:
-
-Data acquisition (cf. Weeks 3-4)
-Script(s) used to programmatically acquire data (e.g., via requests) and check integrity (e.g., SHA-256)
-Documentation describing steps someone else would use to acquire data, including checksums. This is particularly important if your data cannot be redistributed.
-Data integration (cf. Weeks 5-6)
-Script(s) used to integrate datasets (e.g., Python or SQL)
-Conceptual models, integration schema, or query that spans both sources
-Documentation describing steps used to integrate data.
-Profiling, quality assessment, cleaning (cf. Week 7)
-Script(s) used to profile, assess quality of, and clean data (e.g., Python or SQL)
-Documentation describing steps used to profile and clean data
-OpenRefine operation history ("recipe")
-Data analysis and/or visualization
-Script(s) used to analyze data and/or generate associated visualizations
-Analysis results and/or visualizations
-Documentation describing steps used to analyze or visualize data
-Automated Workflow (cf. Week 10)
-Snakemake workflow automating your end-to-end analysis workflow from acquisition to result visualization.
-Run All script that can be used to re-execute your end-to-end analysis workflow
-Documentation describing the steps required to repeat your workflow
-Reproducible package (cf. Week 8)
-Sufficient information to allow someone else to reproduce your analysis including:
-Documentation describing steps someone else needs to take to reproduce your results
-Data or documentation describing how to obtain data used
-All code, workflow scripts, etc., needed to reproduce your results
-Actual results of your analysis including output files, visualizations, etc.
-You are required to upload your output data (and optionally, your input data, if not retrieved programmatically) to Box and include, in your report, a shareable link to the folder where the data is stored, as well as information on where the data should be saved in your project folder once it's downloaded from Box.
-You are responsible for ensuring the shared folder can be accessed by the TAs. If you are unsure about this, you should reach out to the TAs on Campuswire at least 12 hours before the deadline. You may lose points if the TAs cannot access the data you've shared.
-Make sure you add the path to the data that is already in Box to .gitignore before you push any changes to GitHub.
-Specification of software dependencies (e.g., requirements.txt) and record of specific packages used (e.g., output of pip freeze). Optionally, a Dockerfile and container image pushed to Dockerhub.
-Optionally, a Dockerfile and container image pushed to DockerHub or a CodeOcean capsule
-Licenses for data and software created as part of your project
-Citation of data and software used (cf. Week 12)
-Accurate citations of the data and/or software used in your project in conformance with standards
-Metadata describing your dataset and package (cf. Week 13)
-Data dictionary or codebook as text file, PDF, or self-describing data formats.
-Descriptive metadata describing your project in conformance with a standard such as DataCite, Schema.org.
-Archival record (cf. Week 14)
-An copy of your project submitted to the Zenodo long-term archive or a CodeOcean capsule
-Persistent Identifier (cf. Week 12)
-Persistent identifier obtained from the long-term archive
+# References: Formatted citations for any papers, datasets, or software used in your project. We used ACM formatting
+- Human Rights Watch. 2022. What COVID teaches us about the cost-of-living crisis. https://www.hrw.org/news/2022/12/20/what-covid-teaches-us-about-cost-living-crisis. Accessed May 7, 2025.
+- Numbeo. 2025. Cost of Living. Numbeo. https://www.numbeo.com/cost-of-living/. Accessed May 7, 2025.
+- The World Bank. 2025. *World Development Indicators*. World Bank Open Data. https://databank.worldbank.org/source/world-development-indicators. Accessed May 7, 2025.
+- Vieira, M. 2022. Global Cost of Living. Kaggle. https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data. Accessed May 7, 2025.
