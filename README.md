@@ -1,6 +1,8 @@
 # Title: Impact of Cost of Living on Social Metrics Across the World
 
 # Link to archival record: Link to the archived copy of your project, including persistent identifier.
+URL: https://sandbox.zenodo.org/records/215440
+DOI: 10.5072/zenodo.215440
 
 # Contributors: Bulleted list of contributors (with optional ORCIDs).
 - Angela Jing: 0009-0001-0231-7402
@@ -29,7 +31,6 @@ The second dataset is from the World Bank and covers a range of global indicator
 demographic metrics (urban population, life expectancy, net migration), and the one type of metric we're focusing on: social metrics, which encompasses topics such as school enrollment, mortality rates, and more. This dataset was selected because it's not only comprehensive but also from an extremely reliable source; The World Bank is an international development organization owned by 187 countries that provides assistance to developing countries to reduce poverty and promote sustainable development goals (SDGs). The dataset has roughly 16960 rows and and 215 columns, and it has a 9.41 usability score with 100% ratings for completeness and credibility, and a 75% rating for compatibility. The licensing on this dataset is Creative Commons Attribution 4.0 International (CC BY 4.0), which means that users are free to share, adapt and build upon data fora variety of purposes as long as they give appropriate credit to the World Bank and note any changes made. Additionally, according to the World Bank website, the terms of use also state that some of its "datasets may include third-party content with separate terms, which must be followed ... Users may not imply World Bank endorsement or use its name, logo, or branding without written permission." For more information on the World Bank's terms of use, please visit https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets. 
 
 # Findings: [~500 words] Description of any findings including numeric results and/or visualizations.
-<<<<<<< HEAD
 In this analysis, we explored the relationship between the cost of living across different global locations and various socioeconomic indicators. Specifically, we compiled cost of living data from 4,816 cities across 249 countries and examined how these costs might be influenced by three key indicators sourced from the World Bank: total fertility rate, life expectancy at birth, and food production index. These indicators represent demographic, health, and agricultural productivity dimensions of a country, respectively.
 
 
@@ -47,10 +48,8 @@ On the other hand, the total fertility rate appeared to have a slightly negative
 
 Lastly, the food production index did not show a clear or consistent correlation with the cost of living. This indicates that the amount of food a country produces relative to a base year doesn’t seem to strongly impact how expensive it is to live there. There could be many reasons for this, such as the influence of global food trade, distribution inefficiencies, or subsidies that decouple domestic food production from consumer prices.
 
-
 Overall, the analysis shows that while some socioeconomic indicators—particularly life expectancy—are related to the cost of living, others are either weakly correlated or not at all. It highlights how complex and multi-dimensional the drivers of living costs are, and that while demographic and economic data offer valuable insights, they do not paint a full picture on their own. Future research could incorporate more variables such as income levels, education, urbanization rates, or government policy to better understand what influences cost of living globally.
-=======
->>>>>>> d4ac99301fc9e29e9bc9ec83cd956a4c5561b546
+
 
 # Future work: [~500-1000 words] Brief discussion of any lessons learned and potential future work.
 Through this project, we've gained valuable insights into the relationship between cost of living and social indicators for different countries across the world. However, we also encountered several challenges and questions that open up potential for future research.
@@ -86,48 +85,7 @@ In conclusion, this project served as a starting point for understanding how cos
 7.Visualize and analyze the relationship between each global indicator, the composite index, and "totaled costs".
 
 # References: Formatted citations for any papers, datasets, or software used in your project.
-
-
-
-Below are examples of artifacts we expect to see as part of your projects:
-
-Data acquisition (cf. Weeks 3-4)
-Script(s) used to programmatically acquire data (e.g., via requests) and check integrity (e.g., SHA-256)
-Documentation describing steps someone else would use to acquire data, including checksums. This is particularly important if your data cannot be redistributed.
-Data integration (cf. Weeks 5-6)
-Script(s) used to integrate datasets (e.g., Python or SQL)
-Conceptual models, integration schema, or query that spans both sources
-Documentation describing steps used to integrate data.
-Profiling, quality assessment, cleaning (cf. Week 7)
-Script(s) used to profile, assess quality of, and clean data (e.g., Python or SQL)
-Documentation describing steps used to profile and clean data
-OpenRefine operation history ("recipe")
-Data analysis and/or visualization
-Script(s) used to analyze data and/or generate associated visualizations
-Analysis results and/or visualizations
-Documentation describing steps used to analyze or visualize data
-Automated Workflow (cf. Week 10)
-Snakemake workflow automating your end-to-end analysis workflow from acquisition to result visualization.
-Run All script that can be used to re-execute your end-to-end analysis workflow
-Documentation describing the steps required to repeat your workflow
-Reproducible package (cf. Week 8)
-Sufficient information to allow someone else to reproduce your analysis including:
-Documentation describing steps someone else needs to take to reproduce your results
-Data or documentation describing how to obtain data used
-All code, workflow scripts, etc., needed to reproduce your results
-Actual results of your analysis including output files, visualizations, etc.
-You are required to upload your output data (and optionally, your input data, if not retrieved programmatically) to Box and include, in your report, a shareable link to the folder where the data is stored, as well as information on where the data should be saved in your project folder once it's downloaded from Box.
-You are responsible for ensuring the shared folder can be accessed by the TAs. If you are unsure about this, you should reach out to the TAs on Campuswire at least 12 hours before the deadline. You may lose points if the TAs cannot access the data you've shared.
-Make sure you add the path to the data that is already in Box to .gitignore before you push any changes to GitHub.
-Specification of software dependencies (e.g., requirements.txt) and record of specific packages used (e.g., output of pip freeze). Optionally, a Dockerfile and container image pushed to Dockerhub.
-Optionally, a Dockerfile and container image pushed to DockerHub or a CodeOcean capsule
-Licenses for data and software created as part of your project
-Citation of data and software used (cf. Week 12)
-Accurate citations of the data and/or software used in your project in conformance with standards
-Metadata describing your dataset and package (cf. Week 13)
-Data dictionary or codebook as text file, PDF, or self-describing data formats.
-Descriptive metadata describing your project in conformance with a standard such as DataCite, Schema.org.
-Archival record (cf. Week 14)
-An copy of your project submitted to the Zenodo long-term archive or a CodeOcean capsule
-Persistent Identifier (cf. Week 12)
-Persistent identifier obtained from the long-term archive
+Islam, Rafia, Country Names with Short Codes A2, A3, ISO, https://www.kaggle.com/datasets/rafiaaa/country-names-with-short-codes-a2-a3-iso
+Miguel, Piedade, Global Cost of Living, https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data
+George Dinicola, World Bank Indicators by Topic (1960‑Present), https://www.kaggle.com/datasets/georgejdinicola/world-bank-indicators
+(no DOIs in these datasets)
