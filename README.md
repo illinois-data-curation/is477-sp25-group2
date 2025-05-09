@@ -82,6 +82,7 @@ In conclusion, this project served as a starting point for understanding how cos
 
 # References: Formatted citations for any papers, datasets, or software used in your project. We used ACM formatting
 - Human Rights Watch. 2022. What COVID teaches us about the cost-of-living crisis. https://www.hrw.org/news/2022/12/20/what-covid-teaches-us-about-cost-living-crisis. Accessed May 7, 2025.
-- Numbeo. 2025. Cost of Living. Numbeo. https://www.numbeo.com/cost-of-living/. Accessed May 7, 2025.
+- Numbeo. 2025. Cost of Living. Numbeo. https://www.numbeo.com/cost-of-living/. Accessed May 7, 2025
+- Rafia A. 2021. Country Names with Short Codes A2, A3, ISO. Kaggle. https://www.kaggle.com/datasets/rafiaaa/country-names-with-short-codes-a2-a3-iso
 - The World Bank. 2025. *World Development Indicators*. World Bank Open Data. https://databank.worldbank.org/source/world-development-indicators. Accessed May 7, 2025.
 - Vieira, M. 2022. Global Cost of Living. Kaggle. https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data. Accessed May 7, 2025.
